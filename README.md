@@ -1,2 +1,27 @@
-# C-PROGRAMMING-MAJOR-PROJECT
-A simple and modular console-based Phonebook application built using C. This project demonstrates structured programming with multiple source files, header files, and clean documentation. Features include adding, searching, displaying, and deleting contacts. Perfect for beginners learning C, file structure, and modular coding.
+# 📞 Phonebook Application in C
+
+A modular C-based Phonebook Project.
+
+## 🚀 Features
+- Add Contacts
+- Display All Contacts
+- Search Contacts
+- Delete Contacts
+
+## 🗂 Project Structure
+- include/ – Header files  
+- src/ – Source files  
+- docs/ – Documentation  
+
+## 🛠 Compile
+```
+gcc src/main.c src/phonebook.c src/utils.c -I include -o phonebook
+```
+
+## ▶ Run
+```
+./phonebook
+```
+
+## 👨‍💻 Author
+Harshit Srivastava
